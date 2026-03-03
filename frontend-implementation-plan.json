@@ -1,0 +1,29 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Make logo text full blue",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Update logo text in SiteHeader and SiteFooter to display in solid blue color",
+      "acceptanceCriteria": [
+        "The logo text in the site header is rendered in a full/solid blue color",
+        "The logo text in the site footer (if present) matches the same full blue color",
+        "No other header or footer elements change color",
+        "The blue color is consistent with the existing blue palette defined in the Tailwind config / CSS tokens"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/site/SiteHeader.tsx",
+          "operation": "modify",
+          "description": "Update the logo text styling to use a solid blue color from the existing Tailwind blue palette (e.g., text-blue-600 or the primary blue token defined in index.css). Remove any gradient or multi-color styling currently applied to the logo text."
+        },
+        {
+          "path": "frontend/src/components/site/SiteFooter.tsx",
+          "operation": "modify",
+          "description": "Update the logo text styling to match the same solid blue color applied in SiteHeader. Ensure consistency with the blue palette token used in the header."
+        }
+      ]
+    }
+  ]
+}

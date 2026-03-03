@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        
+        /* Dark blue palette for light mode */
+        --background: 0.97 0.015 245;
+        --foreground: 0.18 0.025 245;
+        
+        --card: 0.99 0.010 245;
+        --card-foreground: 0.18 0.025 245;
+        
+        --popover: 0.99 0.010 245;
+        --popover-foreground: 0.18 0.025 245;
+        
+        /* Rich dark blue primary */
+        --primary: 0.48 0.22 245;
+        --primary-foreground: 0.98 0.008 245;
+        
+        /* Blue-tinted secondary */
+        --secondary: 0.92 0.018 245;
+        --secondary-foreground: 0.18 0.025 245;
+        
+        --muted: 0.94 0.015 245;
+        --muted-foreground: 0.45 0.020 245;
+        
+        --accent: 0.90 0.025 240;
+        --accent-foreground: 0.18 0.025 245;
+        
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+        
+        --border: 0.86 0.018 245;
+        --input: 0.86 0.018 245;
+        --ring: 0.48 0.22 245;
+        
+        --chart-1: 0.48 0.22 245;
+        --chart-2: 0.52 0.20 235;
+        --chart-3: 0.45 0.18 255;
+        --chart-4: 0.55 0.19 225;
+        --chart-5: 0.50 0.21 250;
+    }
+
+    .dark {
+        /* Deep dark blue backgrounds */
+        --background: 0.12 0.030 245;
+        --foreground: 0.96 0.008 245;
+        
+        --card: 0.16 0.035 245;
+        --card-foreground: 0.96 0.008 245;
+        
+        --popover: 0.14 0.032 245;
+        --popover-foreground: 0.96 0.008 245;
+        
+        /* Vibrant blue for dark mode */
+        --primary: 0.62 0.24 245;
+        --primary-foreground: 0.12 0.030 245;
+        
+        --secondary: 0.22 0.035 245;
+        --secondary-foreground: 0.96 0.008 245;
+        
+        --muted: 0.25 0.035 245;
+        --muted-foreground: 0.60 0.020 245;
+        
+        --accent: 0.28 0.040 240;
+        --accent-foreground: 0.96 0.008 245;
+        
+        --destructive: 0.60 0.22 25;
+        --destructive-foreground: 0.96 0.008 245;
+        
+        --border: 0.25 0.035 245;
+        --input: 0.25 0.035 245;
+        --ring: 0.62 0.24 245;
+        
+        --chart-1: 0.62 0.24 245;
+        --chart-2: 0.66 0.22 235;
+        --chart-3: 0.58 0.20 255;
+        --chart-4: 0.70 0.21 225;
+        --chart-5: 0.64 0.23 250;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
+

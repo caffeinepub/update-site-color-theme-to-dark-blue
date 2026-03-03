@@ -1,0 +1,43 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-03-02T12:01:35.037Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "Update the logo text in SiteHeader.tsx to display in a solid, full blue color instead of its current styling. Apply the same change to any logo text in SiteFooter.tsx.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/site/SiteHeader.tsx",
+          "frontend/src/components/site/SiteFooter.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/site/SiteHeader.tsx",
+          "frontend/src/components/site/SiteFooter.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "caffeine.lock.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/site/SiteFooter.tsx",
+    "frontend/src/components/site/SiteHeader.tsx",
+    "frontend/src/config.ts",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

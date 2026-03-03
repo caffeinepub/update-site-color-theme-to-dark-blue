@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-update-the-logo-text-in-siteheader-tsx-to-display-in-a-solid-full-blue-color-instead-of-its-current-styling-apply-the-same-change-to-any-logo-text-in-sitefooter-tsx",
+      "title": "Update the logo text in SiteHeader.tsx to display in a solid, full blue color instead of its current styling. Apply the same change to any logo text in SiteFooter.tsx.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Change logo text to full blue color",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Make logo text full blue",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

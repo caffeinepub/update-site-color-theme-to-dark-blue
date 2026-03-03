@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-logo-text-in-siteheader-tsx-to-display-in-a-solid-full-blue-color-instead-of-its-current-styling-apply-the-same-change-to-any-logo-text-in-sitefooter-tsx",
+      "featureTitle": "Update the logo text in SiteHeader.tsx to display in a solid, full blue color instead of its current styling. Apply the same change to any logo text in SiteFooter.tsx.",
+      "files": [
+        "frontend/src/components/site/SiteFooter.tsx",
+        "frontend/src/components/site/SiteHeader.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
